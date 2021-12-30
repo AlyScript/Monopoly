@@ -595,6 +595,4 @@ public class Tile {
 		this.workforceCostToBuy = workforceCostToBuy;
 	}
 
-	
-
 }

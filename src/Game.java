@@ -80,7 +80,7 @@ public class Game {
 		System.out.println("\nTILE INFORMATION");
 		System.out.println("--------------------");
 		System.out.printf("%-30s %-20s %-25s %-25s %-20s %-20s %-20s\n", "Tile Name", "Tile Number",
-				"Workforce cost to Buy", "Equipment cost to Buy", "Development Level", "Owned By","System");
+				"Workforce cost to Buy", "Equipment cost to Buy", "Development Level", "Owned By", "System");
 		System.out.println("--------------------------------------------------------------------------------------------------------------------------------------------------------------");
 		for (Tile tile : gameBoard) {
 			if (tile.getTileNumber() == FREETILE1NUMBER || tile.getTileNumber() == FREETILE2NUMBER) {
@@ -503,7 +503,7 @@ public class Game {
 	
 	
 	/**
-	 * Displays win game message when a game is won
+	 * Displays win message when a game is won
 	 */
 	public void displayWinGameMessage() {
 		System.out.println("It started as a dream, as a vision");

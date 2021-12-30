@@ -4,7 +4,7 @@ import java.util.Scanner;
 public class GameRunner {
 
 	/**
-	 * Starting point for Artemis Lites
+	 * Starting point
 	 * 
 	 * @param args
 	 */

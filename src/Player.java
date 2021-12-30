@@ -5,10 +5,10 @@ public class Player {
 	//constants
 	private static final int STARTINGWORKFORCE = 300;
 	private static final int STARTINGEQUIPMENT = 400;
-	private static final int BOARDSIZE=12;
-	private static final int COLLECTGOWORKFORCE=300;
-	private static final int COLLECTGOEQUIPMENT=280;
-	public static final int MINNUMBERPLAYERS =2;
+	private static final int BOARDSIZE = 12;
+	private static final int COLLECTGOWORKFORCE = 300;
+	private static final int COLLECTGOEQUIPMENT = 280;
+	public static final int MINNUMBERPLAYERS = 2;
 	public static final int MAXNUMBERPLAYERS = 4;
 	private static final int GAMEOVERRESOURCEVALUE = -1;
 	/**
@@ -64,12 +64,12 @@ public class Player {
 		
 		
 		int numOfPlayers;
-		System.out.println("How many players? (Must be between "+MINNUMBERPLAYERS+" and "+MAXNUMBERPLAYERS+")");
+		System.out.println("How many players? (Must be between "+ MINNUMBERPLAYERS +" and "+ MAXNUMBERPLAYERS + ")");
 		
 		//handle for string inputs into nextInt() scanner
 		while(!scanner.hasNextInt()) {
 			String token = scanner.next();
-			System.out.println(token+ " is not a valid number");
+			System.out.println(token + " is not a valid number");
 			System.out.println("please try again");
 		}
 		numOfPlayers = scanner.nextInt();

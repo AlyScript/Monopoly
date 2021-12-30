@@ -36,4 +36,5 @@ public class Dice {
 		System.out.printf("%-20s %-10d\n", "You have rolled", totalRoll);
 		return totalRoll;
 	}
+
 }
